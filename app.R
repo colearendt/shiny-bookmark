@@ -1,7 +1,7 @@
 library(shiny)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+ui <- function(request) {fluidPage(
 
     # Application title
     titlePanel("Old Faithful Geyser Data"),
@@ -22,6 +22,7 @@ ui <- fluidPage(
         )
     )
 )
+}
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
