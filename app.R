@@ -41,6 +41,9 @@ server <- function(input, output, session) {
         session$doBookmark()
     }
     )
+
+    # Update the query string
+    shiny::onBookmarked(updateQueryString)
 }
 
 # Run the application
