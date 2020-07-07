@@ -5,9 +5,9 @@ account: cole
 server: cole
 hostUrl: https://colorado.rstudio.com/rsc/__api__
 appId: 7025
-bundleId: 39157
+bundleId: 39158
 url: https://colorado.rstudio.com/rsc/content/7025/
-when: 1594122885.98038
+when: 1594124686.08511
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: shiny_bookmarks/420729c3f74d9bf5/input.rds|shiny_bookmarks/c7521f928fe7c4b5/input.rds|shiny_bookmarks/d5637c818734b603/input.rds|shiny_bookmarks/fd43f2cc90ded7ed/input.rds
+ignoredFiles: shiny_bookmarks
